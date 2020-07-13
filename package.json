@@ -1,6 +1,6 @@
 {
-  "name": "hypertrie-multigraph",
-  "version": "3.0.0",
+  "name": "dwtrie-multigraph",
+  "version": "1.0.0",
   "description": "A simple directed multigraph built on Hypertrie",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/andrewosh/hypertrie-multigraph#readme",
   "devDependencies": {
-    "hypertrie": "^4.0.0",
+    "dwtrie": "^1.0.0",
     "random-access-memory": "^3.1.1",
     "standard": "^14.1.0",
     "tape": "^4.11.0"
