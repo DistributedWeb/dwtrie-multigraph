@@ -1,12 +1,12 @@
 const nanoiterator = require('nanoiterator')
-const hypertrie = require('hypertrie')
+const dwtrie = require('dwtrie')
 const maybe = require('call-me-maybe')
 
 const { StackIterator } = require('./lib/iterators')
 
 class HypertrieGraph {
   constructor (storage, opts) {
-    this.trie = hypertrie(storage, opts)
+    this.trie = dwtrie(storage, opts)
     this.ready = this.trie.ready.bind(this.trie)
     this._opts = opts
   }

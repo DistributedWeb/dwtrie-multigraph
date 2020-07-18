@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewosh/hypertrie-multigraph.git"
+    "url": "git+https://github.com/andrewosh/dwtrie-multigraph.git"
   },
   "keywords": [
-    "hypertrie",
+    "dwtrie",
     "multigraph"
   ],
   "author": "Andrew Osheroff <andrewosh@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewosh/hypertrie-multigraph/issues"
+    "url": "https://github.com/andrewosh/dwtrie-multigraph/issues"
   },
-  "homepage": "https://github.com/andrewosh/hypertrie-multigraph#readme",
+  "homepage": "https://github.com/andrewosh/dwtrie-multigraph#readme",
   "devDependencies": {
     "dwtrie": "^1.0.0",
     "random-access-memory": "^3.1.1",
